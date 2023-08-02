@@ -13,11 +13,10 @@
   font-size: 2rem;
   color: white;
   width: 90vw;
-  max-width: 800px;
+  max-width: 740px;
 }
 
 .btn-wrapper {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +38,7 @@
 
 .joke-wrapper {
   margin-top: 1rem;
-  background-color: #ffffffc8;
+  background-color: #ffffffb6;
   border: rgb(255, 255, 255);
   border-style: ridge;
   border-radius: 12px;

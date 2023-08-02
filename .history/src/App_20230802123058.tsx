@@ -46,8 +46,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        
         <div className="joke-wrapper">
-          <p>Chuck Norris Jokes</p>
+          {joke || "Select a category to get a Chuck Norris joke!"}
         </div>    
         <div className="btn-wrapper">
           {buttons.map((item) => (

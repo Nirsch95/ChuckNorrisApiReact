@@ -17,7 +17,6 @@
 }
 
 .btn-wrapper {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,11 +38,10 @@
 
 .joke-wrapper {
   margin-top: 1rem;
-  background-color: #ffffffc8;
-  border: rgb(255, 255, 255);
-  border-style: ridge;
-  border-radius: 12px;
-  color: black;
+  background-color: #1717177a;
+  border: black;
+  border-radius: 30%;
+  color: white;
 }
 
 /* CSS */

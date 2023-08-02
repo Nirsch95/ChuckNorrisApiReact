@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/127/496/1007/missing-chuck-norris-wallpaper-preview.jpg);
-  background-size: cover;
+  background-image: url(https://pixeljoint.com/files/icons/full/bruce_mk.gif);
+  background-size: ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,6 @@
 }
 
 .btn-wrapper {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,12 +37,7 @@
 }
 
 .joke-wrapper {
-  margin-top: 1rem;
-  background-color: #ffffffc8;
-  border: rgb(255, 255, 255);
-  border-style: ridge;
-  border-radius: 12px;
-  color: black;
+  margin-top: 3rem;
 }
 
 /* CSS */

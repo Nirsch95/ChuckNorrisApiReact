@@ -17,7 +17,6 @@
 }
 
 .btn-wrapper {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +24,7 @@
 }
 
 .btn {
+  margin-top: 1rem;
   background: #61dafb;
   height: 40px;
   font-size: 1.5rem;
@@ -39,7 +39,7 @@
 
 .joke-wrapper {
   margin-top: 1rem;
-  background-color: #ffffffc8;
+  background-color: #ffffffb6;
   border: rgb(255, 255, 255);
   border-style: ridge;
   border-radius: 12px;

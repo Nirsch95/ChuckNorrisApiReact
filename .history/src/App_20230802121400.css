@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/127/496/1007/missing-chuck-norris-wallpaper-preview.jpg);
-  background-size: cover;
+  background-image: url(https://www.google.com/search?q=chuck+norris+pixel+art&client=opera-gx&hs=L0y&sca_esv=553117817&tbm=isch&sxsrf=AB5stBg1Q4l--txEXWB6fZ7NPotnCEEGbA:1690996392825&source=lnms&sa=X&ved=0ahUKEwjYo726vL6AAxXvZTABHZjoDy0Q0pQJCMIB&biw=1319&bih=619&dpr=1#imgrc=ezEJZjWWy7SNdM&imgdii=P1m8AV0m1gQJeM);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,7 +16,6 @@
 }
 
 .btn-wrapper {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,12 +36,7 @@
 }
 
 .joke-wrapper {
-  margin-top: 1rem;
-  background-color: #ffffffc8;
-  border: rgb(255, 255, 255);
-  border-style: ridge;
-  border-radius: 12px;
-  color: black;
+  margin-top: 3rem;
 }
 
 /* CSS */

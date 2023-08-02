@@ -47,7 +47,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="joke-wrapper">
-          <p>Chuck Norris Jokes</p>
+        <p>Chuck Norris Jokes</p>
         </div>    
         <div className="btn-wrapper">
           {buttons.map((item) => (
