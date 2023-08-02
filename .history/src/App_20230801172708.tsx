@@ -47,7 +47,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Chuck Norris Jokes</p>
-            
+        {buttons.map((item) => (
+            <button
+              key={item}
+              className="btn"
+              onClick={() => getJokeCategory(item)}
+            >
+              {item}
+            </button>
+          ))}
         <div className="btn-wrapper">
           {buttons.map((item) => (
             <button
@@ -59,13 +67,7 @@ function App() {
             </button>
           ))}
         </div>
-        <div>
-            <button
-              className="button-32"
-              onClick={() => getJoke()}
-            >Get a random Joke
-            </button>
-        </div>
+
         <div className="joke-wrapper">
           {joke ? joke : "Select a category to get a Chuck Norris joke!"}
         </div>

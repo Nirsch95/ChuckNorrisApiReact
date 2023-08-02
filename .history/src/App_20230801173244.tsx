@@ -52,7 +52,7 @@ function App() {
           {buttons.map((item) => (
             <button
               key={item}
-              className="btn"
+              className="button-32"
               onClick={() => getJokeCategory(item)}
             >
               {item}

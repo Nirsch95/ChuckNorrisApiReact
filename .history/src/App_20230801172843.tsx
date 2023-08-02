@@ -61,7 +61,7 @@ function App() {
         </div>
         <div>
             <button
-              className="button-32"
+              className="btn "
               onClick={() => getJoke()}
             >Get a random Joke
             </button>

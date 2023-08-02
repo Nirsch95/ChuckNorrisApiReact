@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   width: 90vw;
   max-width: 800px;
@@ -24,9 +24,9 @@
 
 .btn {
   background: #61dafb;
-  height: 40px;
+  height: 55px;
   font-size: 1.5rem;
-  padding: 5px 20px;
+  padding: 10px 20px;
   color: white;
   border-radius: 12px;
   border: 1px solid #61dafb;
@@ -49,7 +49,7 @@
   padding: 10px 15px;
   text-align: center;
   transition: 200ms;
-  width: 30%;
+  width: 100%;
   box-sizing: border-box;
   border: 0;
   font-size: 16px;

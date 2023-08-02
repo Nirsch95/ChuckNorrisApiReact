@@ -32,22 +32,15 @@ function App() {
     }
   };
 
-  const getJoke = async () => {
-    const url = `https://api.chucknorris.io/jokes/random`;
-    try {
-      const response = await fetch(url);
-      const json = await response.json();
-      setJoke(json.value);
-    } catch (error) {
-      console.log("Error fetching joke:", error);
-    }
-  };
-
   return (
     <div className="App">
       <header className="App-header">
         <p>Chuck Norris Jokes</p>
-            
+        <button 
+          key={item}
+          className="btn btn-primary"
+          on
+
         <div className="btn-wrapper">
           {buttons.map((item) => (
             <button
@@ -59,13 +52,7 @@ function App() {
             </button>
           ))}
         </div>
-        <div>
-            <button
-              className="button-32"
-              onClick={() => getJoke()}
-            >Get a random Joke
-            </button>
-        </div>
+
         <div className="joke-wrapper">
           {joke ? joke : "Select a category to get a Chuck Norris joke!"}
         </div>

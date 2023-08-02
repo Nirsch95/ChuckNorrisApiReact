@@ -32,8 +32,8 @@ function App() {
     }
   };
 
-  const getJoke = async () => {
-    const url = `https://api.chucknorris.io/jokes/random`;
+  const getJokeCategory = async (category: never) => {
+    const url = `https://api.chucknorris.io/jokes/random?category=${category}`;
     try {
       const response = await fetch(url);
       const json = await response.json();
@@ -47,7 +47,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Chuck Norris Jokes</p>
-            
+        <button 
+          key={item}
+          className="btn btn-primary"
+          onClick={() => getJoke(item)}
+        >Random Joke</button>
         <div className="btn-wrapper">
           {buttons.map((item) => (
             <button
@@ -59,13 +63,7 @@ function App() {
             </button>
           ))}
         </div>
-        <div>
-            <button
-              className="button-32"
-              onClick={() => getJoke()}
-            >Get a random Joke
-            </button>
-        </div>
+
         <div className="joke-wrapper">
           {joke ? joke : "Select a category to get a Chuck Norris joke!"}
         </div>
